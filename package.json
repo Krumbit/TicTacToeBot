@@ -1,0 +1,20 @@
+{
+    "name": "apcsp",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "license": "MIT",
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "start": "clear && ts-node src/deployCommands.ts && ts-node src/index.ts",
+        "deploy": "clear && ts-node src/deployCommands.ts"
+    },
+    "dependencies": {
+        "chalk": "4.1.2",
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.0.3",
+        "moment": "^2.29.4"
+    }
+}
